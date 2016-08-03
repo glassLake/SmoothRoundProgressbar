@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hss01248.progressbarcircle.MainActivity">
+    <com.hss01248.roundprogressbar.SmoothRoundProgressBar
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <com.hss01248.roundprogressbar.SmoothRoundProgressBar
+        android:layout_marginTop="10dp"
+        app:cpb_endColor = "@android:color/holo_blue_dark"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <com.hss01248.roundprogressbar.SmoothRoundProgressBar
+        android:layout_marginTop="10dp"
+        app:cpb_startColor = "@android:color/holo_green_light"
+        app:cpb_endColor = "@android:color/holo_blue_dark"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <com.hss01248.roundprogressbar.SmoothRoundProgressBar
+        android:layout_marginTop="10dp"
+        app:cpb_startColor = "@android:color/holo_green_light"
+        app:cpb_endColor = "@android:color/holo_blue_dark"
+        app:cpb_duration = "3000"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <com.hss01248.roundprogressbar.SmoothRoundProgressBar
+        android:layout_marginTop="10dp"
+        app:cpb_startColor = "@android:color/holo_green_light"
+        app:cpb_endColor = "@android:color/holo_blue_dark"
+        app:cpb_duration = "3000"
+        app:cpb_strokeWidth = "15dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+</LinearLayout>
