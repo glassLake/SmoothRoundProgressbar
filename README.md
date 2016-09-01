@@ -33,6 +33,27 @@ cpb_endColor :浅灰色，能应付大多数场景。如果对颜色有要求，
         android:layout_width="200dp"
         android:layout_height="200dp" />
 
+# gradle
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+
+Step 2. Add the dependency
+
+
+	dependencies {
+	        compile 'com.github.glassLake:SmoothRoundProgressbar:1.0.0'
+	}
+
 
 # blog
 
